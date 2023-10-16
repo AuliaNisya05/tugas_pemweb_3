@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulia store</title>
+</head>
+<body>
+   
+    <table border="1">
+        <tr>
+            <td>Home </td>
+            <td>Generate Link </td>
+            <td>Transaction History </td>
+            <td>Policy </td>
+            <td>Logout</td>
+        </tr>
+    </table>
+
+    <img style="border: 5px solid black;" src="https://images.samsung.com/is/image/samsung/p6pim/id/rh64a53f1b4-se/gallery/id-food-showcase-rh64a53f1b4-se-440358297?$730_584_PNG$" width="300" alt="">
+
+    <div style="display: inline-block; vertical-align: top;">
+        
+            <table>
+                <tr>
+                    <td>Title Here :</td> 
+                    <td><input type="text" name="titlehere"></td>
+                </tr>
+                <tr>
+                    <td>Description :</td> 
+                    <td><textarea name="Description" id="Description" cols="80" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Account Number :</td> 
+                    <td><input type="number" name="accountnumber"></td>
+                </tr>
+                <tr>
+                    <td>Bank :</td> 
+                    <td><input type="number" name="Bank"></td>
+                </tr>
+                <tr>
+                    <td>Account Holder :</td> 
+                    <td><input type="number" name="accountholder"></td>
+                </tr>
+                <tr>
+                    <td>Transaction :</td> 
+                    <td>
+                        <select id="Transaction">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option> 
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>* if the transaction is for 3 person, choose 3 from the drop-down list</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="Transaction[]" value="Send to Mobile Phone">Send to Mobile Phone</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="Transaction[]" value="Send to Email">Send to Email</td>
+                </tr>
+                <tr>
+                    <td>Send to Mobile Phone :</td>
+                    <td><input type="number" name="sendtomobilephone"></td>
+                </tr>
+                <tr>
+                    <td>Send to Email :</td>
+                    <td><input type="gmail" name="sendtoemail"></td>
+                </tr>
+                <tr align="center">
+                    <td></td>
+                    <td><input type="submit" value="Generate Nabr Link"></td>
+                </tr>
+            </table>
+
+    </div>
+</body>
+</html>
